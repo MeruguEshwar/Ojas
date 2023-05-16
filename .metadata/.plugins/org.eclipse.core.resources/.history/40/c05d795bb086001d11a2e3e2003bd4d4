@@ -1,0 +1,11 @@
+package com.ojas.spring.dao;
+
+import java.util.List;
+
+import com.ojas.spring.model.Student;
+
+public interface StudentDao {
+
+	String CreateStudent(Student student);
+//	public List<Student> getAllStudent(); 
+}

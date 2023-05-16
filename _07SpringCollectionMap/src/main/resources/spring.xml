@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="e" class="com.ojas.spring.bean.Answer">
+		<constructor-arg value="1"/>
+		<constructor-arg value="EshwarAnswer"/>
+		<constructor-arg value="22/12/22"/>
+	</bean>
+	
+	<bean id="e1" class="com.ojas.spring.bean.User">
+		<constructor-arg value="2"/>
+		<constructor-arg value="MeruguUser"/>
+		<constructor-arg value="merugueshwar93@gmail.com"/>
+	</bean>
+	
+	<bean id="e2" class="com.ojas.spring.bean.BussinessLogic">
+		<constructor-arg value="3"/>
+		<constructor-arg value="NaniBussiness"/>
+		<constructor-arg>
+			<map>
+				<entry key-ref="e" value-ref="e1"></entry>
+			</map>
+		</constructor-arg>
+	</bean>
+</beans>

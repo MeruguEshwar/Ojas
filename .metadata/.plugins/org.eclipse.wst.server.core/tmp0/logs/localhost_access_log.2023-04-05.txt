@@ -1,0 +1,10 @@
+127.0.0.1 - - [05/Apr/2023:12:09:32 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Apr/2023:12:09:34 +0530] "GET /_17SpringMVCWithJSP/ HTTP/1.1" 200 354
+0:0:0:0:0:0:0:1 - - [05/Apr/2023:12:09:34 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [05/Apr/2023:12:22:28 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Apr/2023:12:22:29 +0530] "GET /_02SpringMVCAndHibernate/ HTTP/1.1" 500 46582
+127.0.0.1 - - [05/Apr/2023:12:23:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Apr/2023:12:23:13 +0530] "GET /_02SpringMVCAndHibernate/ HTTP/1.1" 200 745
+0:0:0:0:0:0:0:1 - - [05/Apr/2023:12:23:16 +0530] "GET /_02SpringMVCAndHibernate/list HTTP/1.1" 200 788
+0:0:0:0:0:0:0:1 - - [05/Apr/2023:12:23:26 +0530] "POST /_02SpringMVCAndHibernate/savestudent HTTP/1.1" 200 759
+0:0:0:0:0:0:0:1 - - [05/Apr/2023:12:23:27 +0530] "GET /_02SpringMVCAndHibernate/list HTTP/1.1" 200 1057

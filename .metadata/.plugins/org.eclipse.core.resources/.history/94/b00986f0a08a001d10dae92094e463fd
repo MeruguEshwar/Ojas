@@ -1,0 +1,52 @@
+package com.ojas.spring.Dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.ojas.spring.model.Student;
+
+@Repository(value = "eshwar")
+@Transactional
+public class StudentDAOImpl implements StudentDao {
+
+	@Autowired
+	private HibernateTemplate ht;
+
+	@Override
+	public int createStudent(Student student) {
+		int i = (int) ht.save(student);
+		return i;
+	}
+
+	@Override
+	public String deleteStudent(Student std) {
+		ht.delete(std);
+		return null;
+	}
+
+	@Override
+	public Student getStudentById(int studentID) {
+		Student n = ht.get(Student.class, studentID);
+		return n;
+	}
+
+	@Override
+	public List<Student> getAllStudents(Student student) {
+		List<Student> li = new ArrayList();
+		li = ht.loadAll(Student.class);
+		return li;
+	}
+
+	@Override
+	public String updateStudent(Student std) {
+		ht.update(std);
+		return null;
+	}
+
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\em22081\Downloads\_20SpringMVCLoginApplication"/>
+			<item value="D:\_08Spring\_19SpringMVCAndHibernate"/>
+			<item value="C:\Users\em22081\Downloads\SpringORM"/>
+			<item value="D:\_08Spring\_16SpringMVC"/>
+			<item value="D:\_08Spring\_15SpringNamedParameters"/>
+			<item value="D:\_08Spring\_14SpringPreparedStatment"/>
+			<item value="D:\_08Spring\_13SpringJdbcTemplate"/>
+			<item value="D:\_08Spring\_12SpringJDBCCrud"/>
+			<item value="D:\_08Spring\_11QualifiesrAndPrimary"/>
+			<item value="D:\_08Spring\_10BeanTagAnnotation"/>
+			<item value="D:\_08Spring\_09XmlWithAnnotation"/>
+			<item value="D:\_08Spring\_07SpringCollectionMap"/>
+			<item value="D:\_08Spring\_06SpringCollections"/>
+			<item value="D:\_08Spring\_05SpringBeanInheritance"/>
+			<item value="D:\_08Spring\_03SpringBeanContextUsingSetterAndConstructorInjection"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.ojas"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="_00SpringTeluskoPratice"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

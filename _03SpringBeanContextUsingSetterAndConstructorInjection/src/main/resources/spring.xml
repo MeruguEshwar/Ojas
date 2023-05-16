@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="s" class="com.ojas.spring.bean.Student">
+		<!-- <property name="name" value="Harish"></property>  -->
+		<constructor-arg>
+			<value>Harish</value>
+		</constructor-arg>
+	</bean>
+
+
+	<bean id="t" class="com.ojas.spring.bean.Employee">
+		<!-- <property name="Addressname" value="Hyderabad"></property> -->
+		<constructor-arg>
+			<value>Hyderabad</value>
+		</constructor-arg>
+	</bean>
+
+</beans>
